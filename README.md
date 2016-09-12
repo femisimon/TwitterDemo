@@ -3,6 +3,6 @@ Tweet easy.
 
 Simply add your username and password.
 Tweet from your laptop with this automated steps.
-Simple set up and this shoould be fun.
+This is easy to set up.
 
 Non - ASCII = ξαρχακος
