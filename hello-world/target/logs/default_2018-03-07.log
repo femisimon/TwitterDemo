@@ -1,0 +1,24 @@
+22:45:02.622 DEBUG com.cognifide.qa.bb.utils.PropertyUtils:101 - loading properties from: src/main/config/integration/instances.properties (ie. /Users/Femi/Documents/TwitterDemo/hello-world/src/main/config/integration/instances.properties)
+22:45:02.630 DEBUG com.cognifide.qa.bb.utils.PropertyUtils:101 - loading properties from: src/main/config/common/webdriver.properties (ie. /Users/Femi/Documents/TwitterDemo/hello-world/src/main/config/common/webdriver.properties)
+22:45:02.632 DEBUG com.cognifide.qa.bb.utils.PropertyUtils:101 - loading properties from: src/main/config/common/report.properties (ie. /Users/Femi/Documents/TwitterDemo/hello-world/src/main/config/common/report.properties)
+22:45:02.633 DEBUG com.cognifide.qa.bb.utils.PropertyUtils:101 - loading properties from: src/main/config/common/proxy.properties (ie. /Users/Femi/Documents/TwitterDemo/hello-world/src/main/config/common/proxy.properties)
+22:45:02.635 DEBUG com.cognifide.qa.bb.utils.PropertyUtils:101 - loading properties from: src/main/config/dev/instances.properties (ie. /Users/Femi/Documents/TwitterDemo/hello-world/src/main/config/dev/instances.properties)
+22:45:07.393 DEBUG com.cognifide.qa.bb.loadable.hierarchy.ConditionsExplorer:120 - Building loadable components hierarchy tree for com.hello.world.pageobjects.WikipediaPage
+22:45:07.396 DEBUG com.cognifide.qa.bb.loadable.hierarchy.ConditionsExplorer:120 - Building loadable components hierarchy tree for com.hello.world.pageobjects.SearchComponent
+22:45:07.397 DEBUG com.cognifide.qa.bb.loadable.hierarchy.ConditionsExplorer:120 - Building loadable components hierarchy tree for com.hello.world.pageobjects.DefinitionPage
+22:45:07.398 DEBUG com.cognifide.qa.bb.junit.TestRunner:145 - adding additional rules for test: 'com.hello.world.WikipediaTest@7efad001'
+22:45:07.403 DEBUG com.cognifide.qa.bb.junit.ReportingRule:63 - starting test event collectors..
+22:45:07.406 INFO  com.cognifide.qa.bb.junit.ReportingRule:86 - bound test event collectors: 1
+22:45:07.407 DEBUG com.cognifide.qa.bb.junit.ReportingRule:92 - collector: 'com.cognifide.qa.bb.logging.TestEventCollectorImpl@2da9ff77'
+22:45:09.975 DEBUG com.cognifide.qa.bb.loadable.hierarchy.WebElementInterceptor:64 - Caught invocation of method sendKeys from com.hello.world.pageobjects.SearchComponent. Started processing loadable component conditions hierarchy
+22:45:10.487 DEBUG com.cognifide.qa.bb.loadable.hierarchy.WebElementInterceptor:64 - Caught invocation of method submit from com.hello.world.pageobjects.SearchComponent. Started processing loadable component conditions hierarchy
+22:45:11.465 DEBUG com.cognifide.qa.bb.loadable.hierarchy.WebElementInterceptor:64 - Caught invocation of method getText from com.hello.world.pageobjects.DefinitionPage. Started processing loadable component conditions hierarchy
+22:45:11.541 DEBUG com.cognifide.qa.bb.junit.ReportingRule:69 - ending test event collectors..
+22:45:11.543 INFO  com.cognifide.qa.bb.junit.ReportingRule:86 - bound test event collectors: 1
+22:45:11.544 DEBUG com.cognifide.qa.bb.junit.ReportingRule:92 - collector: 'com.cognifide.qa.bb.logging.TestEventCollectorImpl@2da9ff77'
+22:45:14.069 INFO  com.cognifide.qa.bb.junit.concurrent.ReportingHandler:146 - bound reporters sets: 1
+22:45:14.069 DEBUG com.cognifide.qa.bb.junit.concurrent.ReportingHandler:155 - reporters for provider: 'Key[type=com.cognifide.qa.bb.logging.reporter.provider.ReporterProvider, annotation=[none]][Scopes.SINGLETON]':
+	com.cognifide.qa.bb.logging.reporter.HtmlReporter@3f4faf53
+	com.cognifide.qa.bb.logging.reporter.JsonReporter@304bb45b
+	com.cognifide.qa.bb.logging.reporter.SimpleReporter@312aa7c
+	com.cognifide.qa.bb.logging.reporter.StdoutReporter@66982506
